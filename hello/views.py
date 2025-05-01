@@ -23,6 +23,8 @@ def home(request):
     content = "Hello there, " + clean_name + "! It's " + formatted_now
     return HttpResponse(content)'''
 
+# A much better practice is to keep HTML out of your code entirely by using templates, 
+# so that your code is concerned only with data values and not with rendering.
 def hello_there(request, name):
     print(request.build_absolute_uri()) #optional
     return render(

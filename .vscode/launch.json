@@ -11,7 +11,8 @@
             "request": "launch",
             "program": "${workspaceFolder}/manage.py",
             "args": ["runserver", "5000"], // Adjust the port number as needed - added 5000
-            "django": true
+            "django": true,
+            "justMyCode": true
         }
     ]
 }

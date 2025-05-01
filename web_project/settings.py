@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# Defines a location where static files are collected when you use the collectstatic command
+STATIC_ROOT = BASE_DIR / 'static_collected'
 
 # Application definition
 
